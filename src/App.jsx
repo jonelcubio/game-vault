@@ -1,11 +1,22 @@
 import {Routes, Route} from 'react-router-dom';
-
+import {Home} from './pages/Home';
+import {Games} from './pages/Games';
+import {GameDetail} from './pages/GameDetail';
+import {NotFound} from './pages/NotFound';
+import {Navbar} from './components/Navbar';
 
 export function App() {
   return (
     <>
-      <h1>Welcome to the Game Vault</h1>
-      <p>Your one-stop solution for all your gaming needs!</p>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/games" element={<Games />} />
+      <Route path="/games/:id" element={<GameDetail />} />
+      <Route path="*" element={<NotFound />} />
+      <Route path="/:path" element={<NotFound />} />
+    </Routes>
+    
     </>
   )
 }
