@@ -107,10 +107,12 @@
 
 .landing-button-explore-list {
    @apply flex items-center gap-2.5 px-4 py-2.5 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 cursor-pointer hover:scale-105;
+   @apply active:opacity-30;
 }
 
 .landing-button-join-list {
   @apply flex items-center gap-2.5 px-4 py-2.5 bg-pink-600 text-white font-semibold rounded-lg hover:bg-pink-700 transition-colors duration-200 cursor-pointer hover:scale-105;
+  @apply active:opacity-30;
 }
 
 .landing-button-join-list:hover {
