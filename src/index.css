@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
 .navbar-main {
-  background-color: #1c2541;
+  background-color: #1c2541 !important;
+}
+.navbar-brand-con {
+  background-color: #1c2541 !important;
 }
