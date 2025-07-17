@@ -12,6 +12,9 @@ export function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/games" element={<Games />} />
+      <Route path="/games/:id" element={<GameDetail />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     
     </>
