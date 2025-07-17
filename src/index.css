@@ -14,7 +14,7 @@
 }
 
 .navbar-brand-title {
-  @apply text-lg font-bold hover:text-blue-500 transition-colors duration-200 cursor-pointer;
+  @apply text-lg font-bold hover:text-white transition-colors duration-200 cursor-pointer;
   @apply active:opacity-30;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .navbar-links {
-  @apply hover:text-blue-500 transition-colors duration-200 cursor-pointer active:opacity-30;
+  @apply hover:text-white transition-colors duration-200 cursor-pointer active:opacity-30;
 }
 
 .navbar-space-con {
