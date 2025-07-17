@@ -10,11 +10,12 @@
 }
 
 .navbar-brand-icon {
-  @apply hover:opacity-80 transition-opacity duration-200 cursor-pointer;
+  @apply hover:opacity-80 transition-opacity duration-200 cursor-pointer active:opacity-30;
 }
 
 .navbar-brand-title {
   @apply text-lg font-bold hover:text-blue-500 transition-colors duration-200 cursor-pointer;
+  @apply active:opacity-30;
 }
 
 .navbar-links-con {
@@ -22,7 +23,7 @@
 }
 
 .navbar-links {
-  @apply hover:text-blue-500 transition-colors duration-200 cursor-pointer;
+  @apply hover:text-blue-500 transition-colors duration-200 cursor-pointer active:opacity-30;
 }
 
 .navbar-space-con {
@@ -42,7 +43,7 @@
   @apply flex items-center gap-2.5 rounded-lg px-3 py-2;
   background-color: #00509d;
   @apply hover:bg-blue-600 transition-colors duration-200 cursor-pointer;
-  @apply text-sm text-gray-300;
+  @apply text-sm text-gray-300 active:opacity-30;
 }
 
 .navbar-search-icon, .navbar-user-icon {
