@@ -1,12 +1,9 @@
+
 import icon from '../assets/icon.svg';
 import search from '../assets/search.svg';
 import person from '../assets/person.svg';
 
 export function Navbar() {
-
-  console.log("Navbar component rendered");
-
-
   return (
     <main className="navbar-main">
       <div className="navbar-brand-con">
