@@ -65,7 +65,7 @@
 
 /* Home Page Styles */
 .home-landing-image {
-  @apply w-full h-[600px] bg-cover bg-center shadow-2xl rounded-lg relative;
+  @apply w-full h-[600px] bg-cover bg-center shadow-2xl relative;
   background-image: url('../assets/landingBg.jpg');
   position: relative;
   overflow: hidden;
@@ -122,4 +122,33 @@
 
 .landing-button-icon-join:hover {
   fill: white;
+}
+
+.featured-games-main {
+  background-color: #0b132b;
+  @apply text-white py-2 px-4;
+}
+
+.featured-games-flex {
+  @apply flex flex-row items-center justify-between gap-4 ml-12 mr-20 mt-25;
+}
+
+.featured-view-con {
+  @apply flex items-center px-4 py-2.5 text-sm cursor-pointer;
+}
+
+.featured-view-arrow {
+  @apply w-4 h-5;
+  @apply active:opacity-50;
+}
+
+.featured-view-list {
+  @apply flex items-center px-4 py-2.5 text-white font-semibold cursor-pointer;
+  @apply hover:underline transition-all duration-200;
+  @apply active:opacity-50
+}
+
+
+.featured-title {
+  @apply text-3xl font-bold mb-6 cursor-pointer hover:text-white transition-colors duration-200 active:opacity-30
 }
