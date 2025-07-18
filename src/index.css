@@ -46,7 +46,7 @@
   @apply text-sm text-gray-300 active:opacity-30;
 }
 
-.navbar-search-icon, .navbar-user-icon, .landing-button-icon , .landing-button-icon-join {
+.navbar-search-icon, .navbar-user-icon, .landing-button-icon , .landing-button-icon-, .featured-game-about {
   @apply w-5 h-5 text-gray-500;
 }
 
@@ -162,6 +162,27 @@
 }
 
 .featured-games-list {
-  @apply flex flex-col items-center gap-3 py-5 px-2 rounded-lg truncate;
+  @apply flex flex-col items-start gap-3 py-5 px-2 rounded-lg truncate w-80 flex-wrap cursor-pointer;
   background-color: #1c2541;
+  @apply hover:scale-110 transition transition-transform;
+}
+
+.featured-games-title {
+  @apply text-xl font-semibold;
+}
+
+.featured-games-genre {
+  @apply text-sm text-gray-400
+}
+
+.featured-games-buttons-con {
+  @apply flex flex-col gap-2 justify-between items-center self-center;
+}
+
+.featured-game-view-game {
+  @apply flex flex-row gap-2 text-sm justify-between items-center bg-blue-600 py-2.5 px-2.5 rounded-lg cursor-pointer hover:bg-blue-800 active:opacity-60;
+}
+
+.featured-game-add-game {
+  @apply flex flex-row gap-1 text-sm justify-between items-center bg-pink-700 py-2.5 px-2.5 rounded-lg cursor-pointer hover:bg-pink-800 active:opacity-60; 
 }
