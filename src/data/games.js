@@ -8,7 +8,7 @@ const games = [
   },
   {
     id: 2,
-    title: "Sekiro: Shadows Die Twice",
+    title: "Sekiro",
     description: "In a reimagined late 1500s Sengoku period Japan, a lone shinobi embarks on a mission to rescue his kidnapped lord and exact revenge on his enemies.",
     image: "https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg",
     genre: "Action · Role-Playing · Adventure"
@@ -22,14 +22,14 @@ const games = [
   },
   {
     id: 4,
-    title: "The Last of Us: Part I",
+    title: "The Last of Us",
     description: "In a post-apocalyptic world, a hardened survivor named Joel is tasked with escorting a young girl named Ellie across the United States, facing various threats along the way.",
     image: "https://upload.wikimedia.org/wikipedia/en/8/86/The_Last_of_Us_Part_I_cover.jpg",
     genre: "Action · Adventure · Horror"
   },
    {
     id: 5,
-    title: "The Witcher 3: Wild Hunt",
+    title: "The Witcher 3",
     description: "In The Witcher 3: Wild Hunt, players control Geralt of Rivia, a monster hunter searching for his adopted daughter in a visually stunning open world filled with rich storytelling and complex characters.",
     image: "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
     genre: "Action · Adventure"
@@ -43,7 +43,7 @@ const games = [
   },
   {
     id: 7,
-    title: "Max Payne 2: The Fall of Max Payne",
+    title: "Max Payne 2",
     description: "Max Payne 2: The Fall of Max Payne is a neo-noir third-person shooter video game developed by Remedy Entertainment and published by Rockstar Games. It is the sequel to the original Max Payne and follows the story of the titular character as he navigates a dark and gritty narrative filled with betrayal and violence.",
     image: "https://upload.wikimedia.org/wikipedia/en/2/21/Max_Payne_2.jpg",
     genre: "Action · Adventure"
@@ -57,7 +57,7 @@ const games = [
   },
   {
     id: 9,
-    title: "The Elder Scrolls V: Skyrim",
+    title: "The Elder Scrolls V",
     description: "The Elder Scrolls V: Skyrim is an open-world action role-playing game set in a fantasy world filled with dragons, magic, and epic quests. Players assume the role of the Dragonborn, a hero prophesied to save the world from a dragon apocalypse.",
     image: "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
     genre: "Action · Adventure"
@@ -71,7 +71,7 @@ const games = [
   },
   {
     id: 11,
-    title: "Castlevania: Symphony of the Night",
+    title: "Castlevania",
     description: "Castlevania: Symphony of the Night is a critically acclaimed action-adventure game that follows the vampire hunter Alucard as he explores Dracula's castle, battling monsters and uncovering secrets.",
     image: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
     genre: "Action · Adventure"
