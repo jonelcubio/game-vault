@@ -6,6 +6,8 @@ Welcome to **GameVault** – your one-stop solution for all your gaming needs!
 
 GameVault is a React-based web application that provides a platform to browse and discover games. Built with [Vite](https://vitejs.dev/) for lightning-fast development and optimized builds.
 
+This is also a mini-project I've made for me to learn React Router.
+
 ## Features
 
 - Modern React 19+ architecture
