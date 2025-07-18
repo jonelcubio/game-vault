@@ -152,3 +152,17 @@
 .featured-title {
   @apply text-3xl font-bold mb-6 cursor-pointer hover:text-white transition-colors duration-200 active:opacity-30
 }
+
+.featured-game-image-file {
+  @apply w-55 h-60;
+}
+
+.featured-games-con {
+  @apply flex flex-row justify-center items-start py-16 mx-10 gap-5 max-w-screen-xl;
+  
+}
+
+.featured-games-list {
+  @apply flex flex-col items-center gap-3 py-5 px-2 rounded-lg truncate;
+  background-color: #1c2541;
+}
