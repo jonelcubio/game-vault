@@ -75,8 +75,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 63, 136, 0.6); /* #003f88 with 60% opacity */
-  border-radius: inherit;
+  background: rgba(28, 37, 65, 0.7);
   z-index: 1;
 }
 
