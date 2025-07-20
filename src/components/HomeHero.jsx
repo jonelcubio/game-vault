@@ -4,7 +4,7 @@ import crown from "../assets/crown.svg";
 
 export function HomeHero() {
   return (
-    <main className="home-main">
+    <main className="home-main" id="home-main">
       <div className="home-landing-image">
         <img src={landingBg} alt="GameVault" className="home-landing-image" />
       </div>

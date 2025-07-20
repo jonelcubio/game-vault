@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+html {
+  @apply scroll-smooth;
+}
+
 .navbar-main {
   @apply bg-black text-white h-19 flex flex-row items-center gap-2.5 px-4 fixed top-0 left-0 right-0 z-50;
 }
@@ -145,7 +150,7 @@
 }
 
 
-.featured-title {
+.featured-title, .game-library-title {
   @apply text-3xl font-bold mb-6 cursor-pointer hover:text-white transition-colors duration-200 active:opacity-30 items-center self-center;
 }
 
@@ -181,4 +186,12 @@
 
 .featured-game-add-game {
   @apply flex flex-row gap-1 text-sm justify-between items-center bg-pink-700 py-2.5 px-2.5 rounded-lg cursor-pointer hover:bg-pink-800 active:opacity-60; 
+}
+
+.game-library-main {
+  @apply bg-black text-white pt-14;
+}
+
+.game-library-title {
+  @apply mx-10 pb-14;
 }

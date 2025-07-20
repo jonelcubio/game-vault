@@ -2,7 +2,7 @@ import arrow from '../assets/arrow.svg';
 
 export function FeaturedGamesSection(sectionTitle) {
   return(
-    <div className="featured-games-main">
+    <div className="featured-games-main" id='featured-games-section'>
         <div className="featured-games-flex">
           <div className="featured-title">Featured Games</div>
 
