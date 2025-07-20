@@ -193,7 +193,7 @@ html {
 }
 
 .game-library-title {
-  @apply mx-10 pb-14;
+  @apply mx-20 pb-14;
   @apply text-3xl font-bold mb-6 cursor-pointer
 }
 
@@ -203,12 +203,12 @@ html {
 }
 
 .gamelibraryfilter-con {
-  @apply bg-black flex flex-row text-sm mb-12
+  @apply bg-black flex flex-row text-sm pb-12 justify-start
 }
 
 .gamelibraryfilter-search-con {
-  @apply mx-20 text-white flex gap-5 items-center px-2.5 py-1 border border-red-400;
-  @apply rounded-lg;
+  @apply mx-20 text-gray-400 flex gap-5 items-center px-2.5 py-1 border border-gray-500;
+  @apply rounded-lg text-sm;
 }
 
 .gamelibrary-input {
@@ -216,7 +216,11 @@ html {
 }
 
 .gamelibraryfilter-category-con , .gamelibraryfilter-price {
-  @apply border border-gray-300 rounded px-3 py-2 text-white;
+  @apply border border-gray-500 rounded-lg px-3 py-3 text-white items-center justify-center self-center;
+}
+
+.gamelibraryfilter-category-con {
+  @apply -ml-17 mr-5
 }
 
 #gamelibrary-dropdown {
