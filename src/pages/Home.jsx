@@ -12,6 +12,7 @@ export function Home() {
       <HomeHero />
       <FeaturedGamesSection />
       <FeaturedGamesGrid />
+      
       <>
       
       </>

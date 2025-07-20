@@ -126,7 +126,7 @@
 }
 
 .featured-games-flex {
-  @apply flex flex-row items-center justify-between gap-4 ml-12 mr-20 mt-25 bg-gray-950 rounded-lg pl-2.5;
+  @apply flex flex-row items-center justify-between gap-4 ml-12 mr-20 mt-25 rounded-lg pl-2.5;
 }
 
 .featured-view-con {
