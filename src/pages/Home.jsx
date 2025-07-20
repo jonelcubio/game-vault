@@ -2,6 +2,7 @@ import { HomeHero } from '../components/HomeHero.jsx';
 import { FeaturedGamesSection } from '../components/FeaturedGamesSection.jsx';
 import { FeaturedGamesGrid } from '../components/FeaturedGamesGrid.jsx';
 import { GameLibrarySection } from '../components/GameLibrarySection.jsx';
+import { GameLibraryFilter } from '../components/GameLibraryFilter.jsx';
 
 export function Home() {
 
@@ -13,6 +14,7 @@ export function Home() {
       <FeaturedGamesSection />
       <FeaturedGamesGrid />
       <GameLibrarySection />
+      <GameLibraryFilter />
       <>
       
       </>
