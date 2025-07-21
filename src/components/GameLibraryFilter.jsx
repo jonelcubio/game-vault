@@ -26,7 +26,7 @@ export function GameLibraryFilter() {
 
         <div className="gamelibraryfilter-price">
           <select name="gamelibrary-price" className="gamelibrary-price" id="gamelibrary-dropdown">
-            <option value="price-all" className="gamelibrary-option">Price:All</option>
+            <option value="price-all" className="gamelibrary-option">Price: All</option>
             <option value="free" className="gamelibrary-option">Free</option>
             <option value="under-10" className="gamelibrary-option">Under $10</option>
             <option value="10-30" className="gamelibrary-option">$10 - $30</option>
