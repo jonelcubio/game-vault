@@ -230,3 +230,28 @@ html {
 .gamelibrary-option {
   @apply bg-black focus:outline-none;
 }
+
+.gamelibrarygrid-image {
+  @apply w-75 h-60 object-cover;
+}
+
+.gamelibrarygrid-item {
+  @apply bg-gray-950 rounded-lg pb-5;
+  @apply hover:scale-110 transition-transform;
+}
+
+.gamelibrarygrid-main {
+  @apply bg-black text-white py-2.5;
+}
+
+.gamelibrarygrid-con {
+  @apply flex flex-wrap gap-5 mx-20 justify-start py-10;
+}
+
+.gamelibrary-title {
+  @apply text-lg font-semibold mb-6 pt-2.5 px-2.5;
+}
+
+.gamelibrary-genre {
+  @apply text-sm text-gray-400 px-2.5 ;
+}

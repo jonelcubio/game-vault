@@ -3,6 +3,7 @@ import { FeaturedGamesSection } from '../components/FeaturedGamesSection.jsx';
 import { FeaturedGamesGrid } from '../components/FeaturedGamesGrid.jsx';
 import { GameLibrarySection } from '../components/GameLibrarySection.jsx';
 import { GameLibraryFilter } from '../components/GameLibraryFilter.jsx';
+import { GameLibraryGrid } from '../components/GameLibraryGrid.jsx';
 
 export function Home() {
 
@@ -15,6 +16,7 @@ export function Home() {
       <FeaturedGamesGrid />
       <GameLibrarySection />
       <GameLibraryFilter />
+      <GameLibraryGrid />
       <>
       
       </>
