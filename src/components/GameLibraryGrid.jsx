@@ -8,7 +8,7 @@ export function GameLibraryGrid() {
     <div className="gamelibrarygrid-con">
       {gameLibraryImages.map((game) => (
         <div key={game.id} className="gamelibrarygrid-item">
-          <img src={game.img} alt={game.title}  className="gamelibrarygrid-image"/>
+          <img src={game.img} alt={game.title}  className="gamelibrarygrid-image" loading='lazy'/>
           <div className="gamelibrary-title">{game.title}</div>
           <div className="gamelibrary-genre">{game.genre}</div>
 

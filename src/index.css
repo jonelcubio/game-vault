@@ -176,7 +176,7 @@ html {
   @apply text-sm text-gray-400
 }
 
-.featured-games-buttons-con {
+.featured-games-buttons-con, .gamelibrary-buttons-con {
   @apply flex flex-col gap-2 justify-between items-center self-center;
 }
 
@@ -212,7 +212,7 @@ html {
 }
 
 .gamelibrary-input {
-  @apply py-2.5 focus:outline-none w-[50rem] rounded-lg;
+  @apply py-2.5 focus:outline-none w-[57rem] rounded-lg;
 }
 
 .gamelibraryfilter-category-con , .gamelibraryfilter-price {
@@ -236,7 +236,7 @@ html {
 }
 
 .gamelibrarygrid-item {
-  @apply bg-gray-950 rounded-lg pb-5;
+  @apply bg-gray-950 rounded-xl pb-5 cursor-pointer;
   @apply hover:scale-110 transition-transform;
 }
 
@@ -254,4 +254,8 @@ html {
 
 .gamelibrary-genre {
   @apply text-sm text-gray-400 px-2.5 ;
+}
+
+.gamelibrary-buttons-con {
+  @apply pt-2.5
 }

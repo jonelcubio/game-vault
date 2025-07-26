@@ -27,7 +27,7 @@ export function FeaturedGamesGrid() {
             <div className="featured-games-list" key="game.id">
 
               <div className="featured-games-img">
-                <img src={game.image} alt={game.title} className='featured-game-image-file' />
+                <img src={game.image} alt={game.title} className='featured-game-image-file' loading='lazy'/>
               </div>
 
               <div className="featured-games-title" title={game.title}>{game.title}</div>
