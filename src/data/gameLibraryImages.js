@@ -22,31 +22,31 @@ const gameLibraryImages = [
 }, {
     id:6,
     title: 'Puzzle Master',
-    img:
+    img: 'https://images.pexels.com/photos/20021294/pexels-photo-20021294.jpeg'
 }, {
     id:7,
     title: 'Retro Arcade',
-    img:
+    img: 'https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg'
 }, {
     id:8,
     title: 'Battle Strategy',
-    img:
+    img: 'https://images.pexels.com/photos/163427/chess-figure-game-play-163427.jpeg'
 }, {
     id:9,
     title: 'Fantasy Quest',
-    img:
+    img: 'https://images.pexels.com/photos/143625/pexels-photo-143625.jpeg'
 }, {
     id:10,
     title: 'Soccer Champions',
-    img:
+    img: 'https://images.pexels.com/photos/7005503/pexels-photo-7005503.jpeg'
 }, {
     id:11,
     title: 'City Builder',
-    img:
+    img: 'https://images.pexels.com/photos/5912035/pexels-photo-5912035.jpeg'
 }, {
      id:12,
     title: 'Stay Behind',
-    img:
+    img: 'https://images.pexels.com/photos/4069291/pexels-photo-4069291.jpeg'
 }];
 
 export default gameLibraryImages;
