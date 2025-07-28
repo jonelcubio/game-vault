@@ -17,7 +17,6 @@ export function FeaturedGamesGrid() {
     // Update on mount and refresh
     useEffect(() => {
       setRandomFeatured(getRandomGames());
-      console.log("Rendered ramdom Featured games");
     },[])
 
   return(
@@ -27,7 +26,7 @@ export function FeaturedGamesGrid() {
             <div className="featured-games-list" key="game.id">
 
               <div className="featured-games-img">
-                <img src={game.image} alt={game.title} className='featured-game-image-file' loading='lazy'/>
+                <img src={game.image} alt={game.title} className='featured-game-image-file' loading='lazy' title={game.title}/>
               </div>
 
               <div className="featured-games-title" title={game.title}>{game.title}</div>

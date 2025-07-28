@@ -2,13 +2,13 @@ import gameLibraryImages from "../data/gameLibraryImages";
 import star from '../assets/star.svg';
 import cart from '../assets/cart.svg';
 
-export function GameLibraryGrid() {
+export default function GameLibraryGrid() {
   return (
    <main className="gamelibrarygrid-main">
     <div className="gamelibrarygrid-con">
       {gameLibraryImages.map((game) => (
         <div key={game.id} className="gamelibrarygrid-item">
-          <img src={game.img} alt={game.title}  className="gamelibrarygrid-image" loading='lazy'/>
+          <img src={game.img} alt={game.title}  className="gamelibrarygrid-image" loading='lazy' title={game.title}/>
           <div className="gamelibrary-title">{game.title}</div>
           <div className="gamelibrary-genre">{game.genre}</div>
 
