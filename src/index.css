@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 
 html {
@@ -258,4 +259,15 @@ html {
 
 .gamelibrary-buttons-con {
   @apply pt-2.5
+}
+
+.gamelibrarybbuttons-con {
+  @apply flex mx-auto mt-5;
+}
+
+
+.gamelibrarybbutton-load {
+  @apply flex gap-2.5 rounded-lg px-7 py-2.5 bg-black border-1 border-white;
+  @apply hover:bg-gray-900 transition-colors duration-200 cursor-pointer;
+  @apply text-sm text-gray-300 active:opacity-30 font-semibold;
 }

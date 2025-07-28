@@ -20,13 +20,14 @@ export default function GameLibraryGrid() {
             <button className="featured-game-add-game">
               <img src={cart} alt={game.title} className='featured-game-add' /> Add to Cart
             </button>
-
-          </div>
+        </div>
         
         </div>
       ))}
 
-      
+        <div className="gamelibrarybbuttons-con">
+          <button className="gamelibrarybbutton-load">Load More Games</button>
+        </div>
     </div>
    </main>
   );
