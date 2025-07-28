@@ -221,7 +221,11 @@ html {
 }
 
 .gamelibraryfilter-category-con {
-  @apply -ml-17 mr-5
+  @apply -ml-17 mr-5;
+}
+
+.gamelibrary-category, .gamelibrary-price {
+  @apply hover:cursor-pointer;
 }
 
 #gamelibrary-dropdown {
