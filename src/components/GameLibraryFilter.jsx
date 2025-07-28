@@ -1,11 +1,15 @@
 import search from "../assets/search.svg";
 import games from "../data/games";
+import { useGameCategoryContext } from "../context/GameCategoryProvider";
+// Importing the useGameCategoryContext to access the selected category from the context
 import { useState } from "react";
 
 export function GameLibraryFilter() {
 
   const [selectedCategory, setSelectedCategory] = useState("allCategories");
   const [isLoading, setIsLoading] = useState(false);
+  const {setSelectedCategoryContext} = useGameCategoryContext();
+  // Using the context to set the selected category
 
   function handleCategoryChange(e) {
     setIsLoading(true);

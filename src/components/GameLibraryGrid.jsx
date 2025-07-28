@@ -1,8 +1,20 @@
 import gameLibraryImages from "../data/gameLibraryImages";
 import star from '../assets/star.svg';
 import cart from '../assets/cart.svg';
+import {useGameCategoryContext} from "../context/GameCategoryProvider";
+import { useState } from "react";
 
 export default function GameLibraryGrid() {
+
+  const {selectedCategoryContext} = useGameCategoryContext();
+  // Using the context to get the selected category
+
+  const [games, setGames] = useState([]);
+  // State to hold the games
+
+  const filterGamesByCategory =  selectedCategoryContext === "allCategories" ? games : games.filter(game => game.genre === selectedCategoryContext);
+  // Filtering games based on the selected category from context
+
   return (
    <main className="gamelibrarygrid-main">
     <div className="gamelibrarygrid-con">
